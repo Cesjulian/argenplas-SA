@@ -1,0 +1,148 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: $bg-body;
+}
+
+h2 {
+    font-family: $font-titulos;
+    font-size: 1.875rem;
+    margin: 0;
+}
+
+p {
+    font-family: $font-textos;
+    margin: 0;
+}
+
+a {
+    font-size: 1.25rem;
+}
+
+.titulosPaginas {
+    font-family: $font-titulos;
+    color: rgb(0, 0, 0);
+}
+
+
+.headerIndex {
+    background-image: url(../assets/imagenes/argenplas1.jpg);
+    height: 250px;
+    width: 100%;
+}
+
+.tituloPrincipal {
+    font-family: $font-titulos;
+    font-size: clamp(50px, 6vw, 80px);
+    color: rgb(220, 247, 220);
+}
+
+
+.colorNav {
+    background-color: $color-nav;
+}
+
+.coloresBotones {
+    @extend %coloresBotones;
+}
+
+.h2 {
+    padding: 3%;
+    margin: 0;
+}
+
+.parrafo {
+    padding: 3%;
+    font-size: 1.563rem;
+}
+
+.imagenCompras {
+    border-radius: 5%;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+    width: 50px;
+}
+
+.margenDeCards {
+    margin: 0.5em 0;
+}
+
+.paddingBotones {
+    display: block;
+    padding: 0.5em 0.5em;
+}
+
+.footer {
+    font-size: 1.1rem;
+    background-color: $color-footer;
+}
+
+.videoCables {
+    width: 50%;
+    height: 50%;
+}
+
+iframe {
+    margin: 2%;
+}
+
+
+.imgCardProductos {
+    width: 100%;
+}
+
+.paddingCardProductos {
+    margin: 2%;
+    padding: 0;
+}
+
+.sinMargenes {
+    margin: 0;
+    padding: 0;
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+.cardsAnimadas:hover {
+    transform: scale(1.025);
+    transition: all 0.5s;
+    box-shadow: 10px 12px 14px -7px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 10px 12px 14px -7px rgba(0,0,0,0.55);
+    -moz-box-shadow: 10px 12px 14px -7px rgba(0,0,0,0.55);
+}
+
+.anchoMaximo {
+    max-width: 1200px;
+}
+
+.iconoFacebook {
+    background-color: #3b5998;
+    color: $color-butons-redes;
+}
+
+.iconoGoogle {
+    background-color: #9f3427;
+    color: $color-butons-redes;
+}
+
+.iconoInsta {
+    background-color: #ac2bac;
+    color: $color-butons-redes;
+}
+
+.iconoWpp {
+    background-color: #25d366;
+    color: $color-butons-redes;
+}
+
+iframe {
+    @media screen and (max-width: 480px) {
+        width: 80%;
+    }
+}
